@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi página Web</title>
+</head>
+
+<body>
+    <!--H1 solo se utiliza una sola vez-->
+    <h1>Título de la Web</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> corporis libero ducimus saepe maxime possimus ad fugit rem, recusandae dolorum consectetur, orrupti officia molestiae aut est excepturi consequuntur? Sequi, saepe?</p>
+    <hr/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> corporis libero ducimus saepe maxime possimus ad fugit rem, recusandae dolorum consectetur, orrupti officia molestiae aut est excepturi consequuntur? Sequi, saepe?</p>
+    <hr/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Quia corporis libero ducimus saepe maxime possimus ad fugit rem, recusandae dolorum consectetur, orrupti officia molestiae aut est excepturi consequuntur? Sequi, saepe?</p>
+
+    <h2>Bienvenidos a mi Web</h2>
+
+    <h3>Tercer encabezado de la página</h3>
+
+    <p><strong> ipsum dolor sit <em> consectetur adipisicing elit.</em> </strong> <br/> Quia corporis libero ducimus saepe maxime possimus ad fugit rem, recusandae dolorum consectetur, orrupti officia molestiae aut est excepturi consequuntur? Sequi, saepe?</p>
+    <p><span id="resaltado" class="rojo amarillo"> ipsum dolor <i> amet consectetur adipisicing elit.</i> </span> corporis libero ducimus saepe maxime possimus ad fugit rem, recusandae dolorum consectetur, orrupti officia molestiae aut est excepturi consequuntur?
+        Sequi, saepe?</p>
+    <blockquote>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores similique amet, adipisci debitis corporis optio earum omnis magnam facere tempore nostrum explicabo cupiditate ullam enim tenetur aperiam itaque quas iure.</p>
+    </blockquote>
+
+    <h3>Uso de Imágenes</h3>
+    <img src="Imagenes/1.jpg" alt="Foto de una sebra" title="Foto de sebra" width="455" />
+
+    <h3>Listado de Frutas Ordenada</h3>
+    <ol>
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+
+    <h3>Listado de Frutas no ordenada</h3>
+    <ul>
+        <li>Manzana
+            <ul>
+                <li>Roja</li>
+                <li>Verde</li>
+            </ul>
+        </li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ul>
+
+    <h2>Uso de Tablas</h2>
+    <table border="1">
+        <!--fila-->
+        <tr>
+            <!--Cuando es encabezado principal usar th-->
+            <!--Columna-->
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Pais</th>
+        </tr>
+        <!--fila-->
+        <tr>
+            <!--Columna-->
+            <!--Colspan sirve para que una columna abarque más de su espacio de acuerdo a la tabla-->
+            <td>Bryan</td>
+            <td colspan="2">Solares</td>
+        </tr>
+    </table>
+
+    <h2>Uso de formularios</h2>
+    <form>
+        <!--con for relaciono el label con el name del input-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" />
+        <br/>
+        <label for="descripcion">Descripcion:</label>
+        <textarea name="descripcion"></textarea>
+        <br/>
+        <input type="radio" name="genero" value="hombre"> Hombre
+        <input type="radio" name="genero" value="mujer"> Mujer
+        <input type="radio" name="genero" value="indefinido"> Indefinido
+        <br/>
+        <select name="genero2">
+            <optgroup label="Sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option vazlue="indefinido">Indefinido</option>
+            </optgroup>
+            <!--opción disable hace que los elementos formen parte de una selección pero sin poderla seleccionar-->
+            <optgroup label="Otras opciones" disabled>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option vazlue="indefinido">Indefinido</option>
+            </optgroup>
+        </select>
+        <br/>
+        <input type="submit" value="Enviar" name="enviar">
+    </form>
+
+
+</body>
+
+</html>
