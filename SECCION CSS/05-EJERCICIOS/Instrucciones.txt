@@ -1,0 +1,11 @@
+    EJERCICIOS
+    1. Crear html y vincular con css
+    2. Crear estructura html que cuenta con contenedor principal, header, menu, sideba, que tenga seccion contenido principal
+    elementos dentro del contenedor principal y luego footer.
+    3. Todo el contenido debe estar dentro del contenedor general y ancho será 1200px en pantalla y estar centrado
+    4. Header ocupará 100% del ancho y tener texto grande centrado.
+    5. Menu debe contener elementos en linea
+    6. Contenido principal debe tener un ancho de 70%
+    7. Contenido dentro del contenedor principal, debe ser cuadricula de 4x2.
+    8. Barra lateral debe tener ancho de 30%
+    9. Footer debe tener ancho de 100% del div que lo contiene y debe estar al final.

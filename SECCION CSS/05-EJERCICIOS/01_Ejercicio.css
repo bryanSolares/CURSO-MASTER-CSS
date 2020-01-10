@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: rgba(13, 13, 128, 0.911);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+#menu{
+    background-color: #ccc;
+}
+
+#menu ul li{
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    border-right: 1px solid rgb(53, 50, 50);
+}
+
+#menu ul li a{
+    color: #444;
+    display: block;
+    padding: 15px;
+}
+
+#menu ul li:hover {
+    background-color:rgba(13, 13, 100, 0.911);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color:  white;
+}
+
+#contenido{
+    float: left;
+    width: 70%;
+    background-color: teal;
+}
+
+#lateral{
+    float: left;
+    width: 30%;
+    background-color: tomato;
+    height: 500px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#contenido > h2{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: rgb(83, 82, 165);
+    border: 1px solid rgba(13, 13, 100, 0.911);
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 250px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 15px;
+}
+
+#footer{
+    width: 100%;
+    background-color: rgba(13, 13, 100, 0.911);
+    text-align: center;
+    color: white;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50px 50px 0 0;
+}
+
+.libre {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    border: 1px solid black;
+    background-color: red;
+    color: thistle;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}
+
+.libre2{
+    background-color: green;
+    top: 280px;
+    left: 50%;
+}
+
+.fija{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    border: 1px solid black;
+    background-color: blue;
+    color: thistle;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}
+
+.sombra-interior{
+    box-shadow: 0px 0px 15px black inset !important;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}

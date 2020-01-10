@@ -1,0 +1,59 @@
+/*
+backgroud: contenedor general de muchas opciones
+backgroud-color: 
+backgroud-image:
+backgroud-repeat: repeat-z (diagonal)
+backgroud-size:
+backgroud-attachment:
+text-align: 
+line-height:
+text_transform:
+text_decoration:
+vertical-align:
+text-ident:
+word-spacing:
+letter-spacing:
+*/
+
+body{
+    background: slateblue;
+    background-color: green;
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/3/bc/tropical-flowers-pattern-tekstura-fon-background-pattern-flo.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-size: 100% 100%;
+    text-align: justify;
+}
+
+#titulo1{
+    border: 5px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    vertical-align: top;
+    word-spacing: 5px;
+}
+
+#titulo2{
+    background-color: teal;
+    text-align: right;
+}
+
+#titulo3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbAnV4Um96iJN-SowiFr4gY7z7022YKKyBmLhSoRcnvEQ2QvYZ);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    text-align: end;
+}
+
+#titulo4{
+    background-image: url(https://png.pngtree.com/element_our/md/20180321/md_d76401cff8291e4834a4754df44cb637.jpg);
+    text-decoration: underline;
+    letter-spacing: 20px;
+}
+
+p{
+    text-indent: 20px;
+}

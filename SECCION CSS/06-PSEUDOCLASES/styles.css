@@ -1,0 +1,51 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: purple;
+}
+
+ul li:nth-child(2){
+    color: blue;
+}
+
+ul li:last-child{
+    color: red;
+}
+
+#enlace{
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#enlace:link{
+    color: red;
+}
+
+#enlace:visited{
+    color: green;
+}
+
+#enlace:hover{
+    color: indigo;
+}
+
+#enlace:active{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

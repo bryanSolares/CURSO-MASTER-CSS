@@ -1,0 +1,60 @@
+/*
+    font-family: para cambiar tipo de fuente entre diversas
+    font-size: tamaño de letra
+    font-weight: para aumentar grosor de letra
+    font-style: tipo de letra
+    text-transform: permite cambiar características de la letra
+*/
+
+/*
+FUENTES PERSONALIZADAS
+GOOGLE FONTS
+primera opción hacer link desde el html hacia la página que contiene la fuente
+segunda opción hacer link desde el css hacia la página que contiene la fuente
+tercera opción opción descargar la fuente
+
+@font-face
+*/
+
+/*
+MANEJO DE COLORES
+1. Colores del sistema
+2. Colores hexadecimales
+3. Colores RGB -> red, green, blue
+4. Colores RGBA -> con transparencia que va desde 0 a 1
+*/
+
+@font-face{
+    font-family: MashanFuenteCustome;
+    src: url(fonts/Mashan/Mashan.ttf);
+}
+
+h1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: mediumpurple;
+}
+
+h2{
+    color: rgba(19, 192, 28, 0.753);
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: olive;
+}
+
+h4{
+    color: rgb(4, 25, 117);
+}
+
+p{
+    font-family: MashanFuenteCustome, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #109494;
+}
