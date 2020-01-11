@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Proyecto NO. 1</title>
 </head>
+
 <body>
 
     <!--CABECERA-->
@@ -21,11 +23,288 @@
 
 
     <!--MENU-->
-    <nav>
-
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html">Contenido</a></li>
+            <li><a href="index.html">Requerimientos</a></li>
+            <li><a href="index.html">Lenguajes</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Frameworks</a>
+                <ul>
+                    <li><a href="#">LESS</a></li>
+                    <li><a href="#">SASS</a></li>
+                    <li><a href="#">BOOTSTRAP 4</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="index.html">El instructor</a></li>
+            <li><a href="index.html">Reseñas</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">Contacto</a></li>
+        </ul>
     </nav>
 
+    <!--CONTENIDO CENTRAL-->
+    <div id="content">
+        <!--BARRA LATERAL-->
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la WEB</h3>
+                <form action="">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
 
+                    <label for="contras">Contraseña:</label>
+                    <input type="password" name="contras" id="contras">
+
+                    <input type="submit" value="Entrar">
+                </form>
+
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de profesores</a>
+                <a href="#">Zona de calificaciones</a>
+
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="blue">AULA VIRTUAL 1</h3>
+                <form action="">
+                    <label for="usuario">Nombre de Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="contras">Contraseña:</label>
+                    <input type="password" name="contras" id="contras">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="red">AULA VIRTUAL 2</h3>
+                <form action="">
+                    <label for="usuario">Nombre de Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="contras">Contraseña:</label>
+                    <input type="password" name="contras" id="contras">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Enlaces de Interes</h3>
+                <ul>
+                    <li><a href="#">Enlace 1</a></li>
+                    <li><a href="#">Enlace 2</a></li>
+                    <li><a href="#">Enlace 3</a></li>
+                    <li><a href="#">Enlace 4</a></li>
+                </ul>
+            </div>
+        </aside>
+
+
+
+        <!--SECCIONES CENTRALES-->
+        <div id="sections">
+            <section id="frontend">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina">
+                </span>
+                <h2 class="titulo">Noticias de Front-End</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                        animi aliquid ducimus praesetium rerum explicabo.
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+            </section>
+
+            <section id="backend">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina">
+                </span>
+                <h2 class="titulo red">Noticias de Back-End</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+            </section>
+
+            <section id="instructor">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina">
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina">
+                </span>
+                <h2 class="titulo orange">Noticias del Instructor</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de Entreda</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores recusandae tempora?
+                        Repellat quia quis et laborum? Rerum nemo quisquam dolores facere delectus inventore repudiandae
+                        vel voluptatem. Quod, obcaecati corrupti!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur mollitia quam ducimus
+                    </p>
+                    <span class="date">[20-12-2020. Bryan Solares]</span>
+                </article>
+            </section>
+        </div>
+
+        <!--FRASE DEL DIA-->
+        <aside id="frase">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex quibusdam fugiat ratione repellat
+            tempore nisi ipsam ducimus excepturi. Odit nobis temporibus recusandae ipsam in cum pariatur dolorem
+            suscipit ea?
+            <a href="#">Leer más frases</a>
+        </aside>
+
+        <div class="clear-fix"></div>
+
+        <div id="history">
+            <a href="#">[Ver historico de Noticias]</a>
+        </div>
+
+    </div>
+
+
+    <!--FOOTER-->
+
+    <div class="clear-fix"></div>
+
+    <footer id="footer">
+        <p>&copy; Desarrollado por Bryan Solares</p>
+        <p>Más contenido y formación de desarrollo web en <a href="#">Dirección WEB</a></p>
+    </footer>
 
 </body>
+
 </html>
