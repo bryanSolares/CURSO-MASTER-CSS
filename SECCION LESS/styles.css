@@ -1,0 +1,40 @@
+/*PARA COMPILAR SE USA:
+    lessc nombre-archivo.less nombre-archivo.css
+*/
+/*VARIABLES*/
+body {
+  background-color: #add8e6;
+}
+h1 {
+  font-family: Arial;
+}
+/*ANIDACIONES*/
+.informacion ul a {
+  color: green;
+  font-size: 18px;
+}
+/*MIXINS*/
+.informacion {
+  box-shadow: 0 0 10px black;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px #000000;
+  text-shadow: 0 0 5px #808080;
+}
+/*OPERADORES*/
+h1 {
+  font-size: 37px;
+}
+/*MIXINS CONDICIONALES*/
+/*no muy convencido*/
+h1 {
+  color: blue;
+}
+/*MIXINS ITERATIVOS*/
+/*no muy convencido*/
+.informacion {
+  height: 2250px;
+  height: 1800px;
+  height: 1350px;
+  height: 900px;
+  height: 450px;
+}
