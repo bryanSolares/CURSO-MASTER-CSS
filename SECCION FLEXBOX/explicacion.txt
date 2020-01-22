@@ -1,0 +1,8 @@
+1. forma diferente de maquetacion
+2. optimiza disenio interfaz usuario
+3. facilidad para maquetacion web
+4. viene a sustituir float
+5. distribuye los elementos en horizontal o vertical
+6. se puede flexibilizar los elementos de manera automatica
+7. orientado a responsive
+8. Se requiere de un padre quien es la inicio o indicador de posiciones

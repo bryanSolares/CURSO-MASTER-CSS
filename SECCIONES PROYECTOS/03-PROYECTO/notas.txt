@@ -1,0 +1,27 @@
+/*****************************************************************/
+@font-face sintaxis
+@font-face {
+    font-family: <un-nombre-para-fuente>
+    src: <origen> [,<origen>]* url();
+    [font-weight: <peso>];
+    [font-style: <estilo>];
+}
+
+<origen>: direccion url o nombre de fuente en la computadora de forma local("Nombre de Fuente")
+<peso>: grosor fuente
+
+Si la fuente no es encontrada se intentara con otros origenes hasta encontrar la fuente
+ @font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue Bold"),
+  local("HelveticaNeue-Bold"),
+  url(MgOpenModernaBold.ttf);
+  font-weight: bold;
+}
+
+/*****************************************************************/

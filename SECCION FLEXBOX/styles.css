@@ -1,0 +1,176 @@
+
+body{
+    text-align: center;
+}
+
+.layout{
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid green;
+    margin: 10px;
+    background-color: grey;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+
+/*display flex por defecto esta en flex-direction row*/
+/*cuando hay mas elementos todos se van en la direccion que se ha indicado*/
+.layout{
+    display: flex;
+    /*display: inline-flex;*/
+}
+
+/*DIRECCIONES*/
+.layout{
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+}
+
+/*COMO SE COMPORTARA EL CONTENEDOR*/
+.layout{
+    flex-wrap: wrap;
+    /*flex-wrap: nowrap;*/
+}
+
+/*SHOURTHAND PARA UNIR DIRECCION CON CONTENEDOR*/
+.layout{
+    /*flex-flow: column-reverse wrap;*/
+}
+
+/*ORDENAMIENTO DE LOS ELEMENTOS*/
+.blue{
+    order: 2;
+}
+.green{
+    order: 3;
+}
+.red{
+    order: 4;
+}
+.orange{
+    order: 1;
+}
+
+/*CUANTO PUEDE CRECER UN ELEMENTO DENTRO DE UN CONTENEDOR POSITIVAMENTE*/
+.caja{
+    flex-grow: 0;
+}
+
+.red{
+    flex-grow: 0;
+}
+
+.green{
+    flex-grow: 0;
+}
+
+.blue{
+    flex-grow: 0;
+}
+
+.orange{
+    flex-grow: 0;
+}
+
+/*CUANTO PUEDE CRECER UN ELEMENTO DENTRO DE UN CONTENEDOR NEGATIVAMENTE*/
+.caja{
+    flex-grow: 0;
+}
+
+.red{
+    flex-grow: 0;
+}
+
+.green{
+    flex-grow: 0;
+}
+
+.blue{
+    flex-grow: 0;
+}
+
+.orange{
+    flex-grow: 0;
+}
+
+/**/
+.caja{
+    /*flex-basis: calc(100% / 3 - 80px);*/
+}
+
+.orange{
+    /*flex-basis: 100%;*/
+}
+
+.blue{
+    /*flex-basis: 80%;*/
+}
+
+.green{
+    /*flex-basis: 60%;*/
+}
+
+.red{
+    /*flex-basis: 40%;*/
+}
+
+
+/*COMO SE DISTRIBUYE LOS ELEMENTOS EN EL PADRE EN EL EJE X*/
+.layout{
+    justify-content: space-between;
+}
+
+
+/*COMO SE DISTRIBUYE LOS ELEMENTOS EN EL PADRE EN EL EJE Y*/
+.layout{
+    height: 500px;
+    align-items: center;
+    align-items: baseline;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+}
+
+/*COMO SE DISTRIBUYE EL ELEMENTO EN EL PADRE EN EL EJE Y*/
+.orange{
+    align-self: flex-start;
+}
+
+.blue{
+    margin-bottom: 11%;
+    align-self: center;
+}
+
+.green{
+    margin-top: 11%;
+    align-self: center;
+}
+
+.red{
+    align-self: flex-end;
+}
