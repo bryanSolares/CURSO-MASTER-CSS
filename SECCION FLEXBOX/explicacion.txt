@@ -6,3 +6,23 @@
 6. se puede flexibilizar los elementos de manera automatica
 7. orientado a responsive
 8. Se requiere de un padre quien es la inicio o indicador de posiciones
+
+
+CONTENEDOR
+
+display: flex;
+flex-direction: row (default) | row-reverse | column | column-reverse;
+flex-wrap: nowrap (default) | wrap | wrap-reverse;
+flex-flow: <flex-direction> <flex-wrap>   (default row nowrap)
+justify-content: flex-start (default) | flex-end | center | space-beetwen | space-around | space-evenly | start | end | left | right | safe | unsafe;
+align-items: stretch (default) | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end | safe | unsafe;
+align-content: flex-start | flex-end | center | space-beetwen | space-around | stretch (default) | space-evenly | start | end | left | right | safe | unsafe;
+
+
+ELEMENTOS
+order: <integer>
+flex-grow: <number>
+flex-shrink: <number>
+flex-basis: <length> | auto;
+flex: none | [<flex-grow> <flex-shrink>? <flex-basis>?]  (default 0 1 auto)
+align-self: auto | flex-start | flex-end | center | baseline | stretch;

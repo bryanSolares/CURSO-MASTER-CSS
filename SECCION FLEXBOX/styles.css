@@ -51,7 +51,7 @@ body{
     /*flex-direction: column-reverse;*/
 }
 
-/*COMO SE COMPORTARA EL CONTENEDOR*/
+/*COMO SE COMPORTARA LOS ELEMENTOS DENTRO DEL CONTENEDOR*/
 .layout{
     flex-wrap: wrap;
     /*flex-wrap: nowrap;*/
