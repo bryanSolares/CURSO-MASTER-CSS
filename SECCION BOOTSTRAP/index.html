@@ -23,41 +23,75 @@
     </div>
     -->
 
-    <div class="container border">
+    <div class="container-fluid border">
         <div class="row">
             <header id="header" class="col-12 bg-primary text-white p-2 pl-5">
                 <h1>Aprendiendo Bootstrap</h1>
             </header>
 
-            <nav id="menu" class="col-12 bg-secondary text-white">
+            <nav id="menu" class="col-12 bg-secondary text-white d-none d-sm-none d-md-block">
                 <ul class="row w-50">
-                    <li class="col">Inicio</li>
-                    <li class="col">Página 1</li>
-                    <li class="col">Página 2</li>
-                    <li class="col">Página 3</li>
-                    <li class="col">Contacto</li>
+                    <li class="col-xs-12 col-sm-12 col-md">Inicio</li>
+                    <li class="col-xs-12 col-sm-12 col-md">Página 1</li>
+                    <li class="col-xs-12 col-sm-12 col-md">Página 2</li>
+                    <li class="col-xs-12 col-sm-12 col-md">Página 3</li>
+                    <li class="col-xs-12 col-sm-12 col-md">Contacto</li>
                 </ul>
             </nav>
 
             <section id="content" class="col-12">
                 <div class="row">
-                    <section id="products" class="col-9 border">
+                    <section id="products" class="col-12 col-sm-12 col-md-9 border">
                         <h2>Productos</h2>
                         <hr />
-                        <div class="items row">
-                            <div class="item col-3 bg-primary m-3">Producto</div>
-                            <div class="item col-3 bg-warning m-3">Producto</div>
-                            <div class="item col-3 bg-danger m-3">Producto</div>
-                            <div class="item col-3 bg-primary m-3">Producto</div>
-                            <div class="item col-3 bg-warning m-3">Producto</div>
-                            <div class="item col-3 bg-danger m-3">Producto</div>
+                        <div class="items">
+
+                            <div class="row">
+                                <div class="item col-lg col-md-12 col-sm-12 bg-primary">Producto</div>
+                                <div class="item col-lg col-md-6 col-sm-12 bg-warning">Producto</div>
+                                <div class="item col-lg col-md-6 col-sm-12 bg-danger">Producto</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="item col bg-primary m-2">Producto</div>
+                                <div class="item col bg-warning m-2">Producto</div>
+                                <div class="item col bg-danger m-2">Producto</div>
+                            </div>
+                            <div class="row">
+                                <div class="item col bg-primary m-2">Producto</div>
+                                <div class="item col bg-warning m-2">Producto</div>
+                                <div class="item col bg-danger m-2">Producto</div>
+                            </div>
+                            <div class="row mt-1 justify-content-between">
+                                <div class="item col-3 bg-primary ">Producto</div>
+                                <div class="item col-3 bg-warning ">Producto</div>
+                                <div class="item col-3 bg-primary ">Producto</div>
+                            </div>
+                            <div class="row">
+                                <div class="item col-3 bg-primary offset-1">Producto</div>
+                                <div class="item col-2 bg-warning">Producto</div>
+                                <div class="item col-3 bg-danger">Producto</div>
+                                <div class="item col-2 bg-success offset-1">Producto</div>
+                            </div>
                         </div>
                     </section>
-                    <aside class="col-3 border">
+                    <aside class="col-3 border d-none d-sm-none d-md-block">
                         <h2>Barra Lateral</h2>
+
+                        <div class="row lateral bg-light align-items-center">
+                            <div class="col-4 bg-primary align-self-start">elemento 1</div>
+                            <div class="col-4 bg-success align-self-center">elemento 2</div>
+                            <div class="col-4 bg-warning align-self-end">elemento 3</div>
+
+                            <div class="col-4 bg-primary order-3">elemento 1</div>
+                            <div class="col-4 bg-success order-1">elemento 2</div>
+                            <div class="col-4 bg-warning order-2">elemento 3</div>
+                        </div>
                     </aside>
                 </div>
             </section>
+
+            <footer col-lg-12 bg-info>Pie de Página &copy;</footer>
 
         </div>
     </div>
